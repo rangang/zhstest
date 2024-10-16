@@ -1,0 +1,9 @@
+nsis:
+  oneClick: false
+  allowElevation: true
+  allowToChangeInstallationDirectory: true
+  createStartMenuShortcut: true
+  artifactName: ${productName}-${version}-${platform}-${arch}.${ext}
+  shortcutName: ${productName}
+  uninstallDisplayName: ${productName}
+  createDesktopShortcut: always
